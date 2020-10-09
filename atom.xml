@@ -3,11 +3,11 @@
   <title>Mr_Z</title>
   
   <subtitle>日常笔记</subtitle>
-  <link href="https://gitee.com/xy_ang1/atom.xml" rel="self"/>
+  <link href="https://gitee.com/xy_ang/atom.xml" rel="self"/>
   
-  <link href="https://gitee.com/xy_ang1/"/>
-  <updated>2020-10-08T10:53:36.338Z</updated>
-  <id>https://gitee.com/xy_ang1/</id>
+  <link href="https://gitee.com/xy_ang/"/>
+  <updated>2020-10-09T03:57:45.777Z</updated>
+  <id>https://gitee.com/xy_ang/</id>
   
   <author>
     <name>向阳丶</name>
@@ -17,9 +17,34 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>test</title>
+    <link href="https://gitee.com/xy_ang/2020/10/09/test/"/>
+    <id>https://gitee.com/xy_ang/2020/10/09/test/</id>
+    <published>2020-10-09T03:51:58.000Z</published>
+    <updated>2020-10-09T03:57:45.777Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://gitee.com/xy_ang/picgo_images/raw/master/20201009115737.png" alt="image-20201009115715409"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://gitee.com/xy_ang/picgo_images/raw/master/20201009115737.png&quot; alt=&quot;image-20201009115715409&quot;&gt;&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    <category term="hexo" scheme="https://gitee.com/xy_ang/categories/hexo/"/>
+    
+    
+    <category term="Marldown" scheme="https://gitee.com/xy_ang/tags/Marldown/"/>
+    
+  </entry>
+  
+  <entry>
     <title>博客常用参数</title>
-    <link href="https://gitee.com/xy_ang1/2020/10/08/chang-yong-can-shu/"/>
-    <id>https://gitee.com/xy_ang1/2020/10/08/chang-yong-can-shu/</id>
+    <link href="https://gitee.com/xy_ang/2020/10/08/chang-yong-can-shu/"/>
+    <id>https://gitee.com/xy_ang/2020/10/08/chang-yong-can-shu/</id>
     <published>2020-10-07T16:00:00.000Z</published>
     <updated>2020-10-08T10:53:36.338Z</updated>
     
@@ -34,7 +59,7 @@
     
     
     
-    <category term="Marldown" scheme="https://gitee.com/xy_ang1/tags/Marldown/"/>
+    <category term="Marldown" scheme="https://gitee.com/xy_ang/tags/Marldown/"/>
     
   </entry>
   
