@@ -3,11 +3,11 @@
   <title>Mr_Z</title>
   
   <subtitle>日常笔记</subtitle>
-  <link href="https://gitee.com/xy_ang/atom.xml" rel="self"/>
+  <link href="http://xy_ang.gitee.io/atom.xml" rel="self"/>
   
-  <link href="https://gitee.com/xy_ang/"/>
+  <link href="http://xy_ang.gitee.io/"/>
   <updated>2020-10-08T10:53:36.338Z</updated>
-  <id>https://gitee.com/xy_ang/</id>
+  <id>http://xy_ang.gitee.io/</id>
   
   <author>
     <name>向阳丶</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>博客常用参数</title>
-    <link href="https://gitee.com/xy_ang/2020/10/08/chang-yong-can-shu/"/>
-    <id>https://gitee.com/xy_ang/2020/10/08/chang-yong-can-shu/</id>
+    <link href="http://xy_ang.gitee.io/2020/10/08/chang-yong-can-shu/"/>
+    <id>http://xy_ang.gitee.io/2020/10/08/chang-yong-can-shu/</id>
     <published>2020-10-07T16:00:00.000Z</published>
     <updated>2020-10-08T10:53:36.338Z</updated>
     
@@ -34,7 +34,7 @@
     
     
     
-    <category term="Marldown" scheme="https://gitee.com/xy_ang/tags/Marldown/"/>
+    <category term="Marldown" scheme="http://xy_ang.gitee.io/tags/Marldown/"/>
     
   </entry>
   
