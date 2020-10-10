@@ -42,31 +42,6 @@
   </entry>
   
   <entry>
-    <title>Gitee使用指南</title>
-    <link href="http://xy_ang.gitee.io/2020/10/08/git/"/>
-    <id>http://xy_ang.gitee.io/2020/10/08/git/</id>
-    <published>2020-10-07T16:00:00.000Z</published>
-    <updated>2020-10-09T14:50:51.032Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;Git远程管理工具&quot;&gt;&lt;a href=&quot;#Git远程管理工具&quot; class=&quot;headerlink&quot; title=&quot;Git远程管理工具&quot;&gt;&lt;/a&gt;Git远程管理工具&lt;/h2&gt;&lt;p&gt;Git本地有三个工作区域：工作目录，暂存区，资源库         </summary>
-        
-      
-    
-    
-    
-    <category term="随笔录丶" scheme="http://xy_ang.gitee.io/categories/%E9%9A%8F%E7%AC%94%E5%BD%95%E4%B8%B6/"/>
-    
-    
-    <category term="Git" scheme="http://xy_ang.gitee.io/tags/Git/"/>
-    
-  </entry>
-  
-  <entry>
     <title>博客常用参数</title>
     <link href="http://xy_ang.gitee.io/2020/10/08/hexo-chang-yong-can-shu/"/>
     <id>http://xy_ang.gitee.io/2020/10/08/hexo-chang-yong-can-shu/</id>
@@ -88,6 +63,31 @@
     
     
     <category term="Marldown" scheme="http://xy_ang.gitee.io/tags/Marldown/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Gitee使用指南</title>
+    <link href="http://xy_ang.gitee.io/2020/10/08/git/"/>
+    <id>http://xy_ang.gitee.io/2020/10/08/git/</id>
+    <published>2020-10-07T16:00:00.000Z</published>
+    <updated>2020-10-09T14:50:51.032Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Git远程管理工具&quot;&gt;&lt;a href=&quot;#Git远程管理工具&quot; class=&quot;headerlink&quot; title=&quot;Git远程管理工具&quot;&gt;&lt;/a&gt;Git远程管理工具&lt;/h2&gt;&lt;p&gt;Git本地有三个工作区域：工作目录，暂存区，资源库         </summary>
+        
+      
+    
+    
+    
+    <category term="随笔录丶" scheme="http://xy_ang.gitee.io/categories/%E9%9A%8F%E7%AC%94%E5%BD%95%E4%B8%B6/"/>
+    
+    
+    <category term="Git" scheme="http://xy_ang.gitee.io/tags/Git/"/>
     
   </entry>
   
