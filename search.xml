@@ -29,6 +29,31 @@
     
     
     <entry>
+      <title>Gitee使用指南</title>
+      <link href="/xy_ang/2020/10/08/git/"/>
+      <url>/xy_ang/2020/10/08/git/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Git远程管理工具"><a href="#Git远程管理工具" class="headerlink" title="Git远程管理工具"></a>Git远程管理工具</h2><p>Git本地有三个工作区域：工作目录，暂存区，资源库          –&gt;&gt;远程仓库      一块共4个</p><h2 id="简易的命令行入门教程"><a href="#简易的命令行入门教程" class="headerlink" title="简易的命令行入门教程"></a>简易的命令行入门教程</h2><p>Git 全局设置:</p><pre class=" language-bash"><code class="language-bash"><span class="token function">git</span> config --global user.name <span class="token string">"HS"</span><span class="token function">git</span> config --global user.email <span class="token string">"1972728214@qq.com"</span></code></pre><p>创建 git 仓库:</p><pre class=" language-bash"><code class="language-bash"><span class="token function">mkdir</span> my-blog_-source<span class="token function">cd</span> my-blog_-source<span class="token function">git</span> init<span class="token function">touch</span> README.md<span class="token function">git</span> add README.md<span class="token function">git</span> commit -m <span class="token string">"first commit"</span><span class="token function">git</span> remote add origin https://gitee.com/xy_ang/my-blog_-source.git<span class="token function">git</span> push -u origin master</code></pre><p>已有仓库?</p><pre class=" language-bash"><code class="language-bash"><span class="token function">cd</span> existing_git_repo<span class="token function">git</span> remote add origin https://gitee.com/xy_ang/my-blog_-source.git<span class="token function">git</span> push -u origin master</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> 随笔录丶 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Git </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>博客常用参数</title>
       <link href="/xy_ang/2020/10/08/hexo-chang-yong-can-shu/"/>
       <url>/xy_ang/2020/10/08/hexo-chang-yong-can-shu/</url>
@@ -46,31 +71,6 @@
         <tags>
             
             <tag> Marldown </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Gitee使用指南</title>
-      <link href="/xy_ang/2020/10/08/git/"/>
-      <url>/xy_ang/2020/10/08/git/</url>
-      
-        <content type="html"><![CDATA[<h1 id="Git远程管理工具"><a href="#Git远程管理工具" class="headerlink" title="Git远程管理工具"></a>Git远程管理工具</h1><p>Git本地有三个工作区域：工作目录，暂存区，资源库          –&gt;&gt;远程仓库      一块共4个</p><h4 id="简易的命令行入门教程"><a href="#简易的命令行入门教程" class="headerlink" title="简易的命令行入门教程:"></a>简易的命令行入门教程:</h4><p>Git 全局设置:</p><pre class=" language-bash"><code class="language-bash"><span class="token function">git</span> config --global user.name <span class="token string">"HS"</span><span class="token function">git</span> config --global user.email <span class="token string">"1972728214@qq.com"</span></code></pre><p>创建 git 仓库:</p><pre class=" language-bash"><code class="language-bash"><span class="token function">mkdir</span> my-blog_-source<span class="token function">cd</span> my-blog_-source<span class="token function">git</span> init<span class="token function">touch</span> README.md<span class="token function">git</span> add README.md<span class="token function">git</span> commit -m <span class="token string">"first commit"</span><span class="token function">git</span> remote add origin https://gitee.com/xy_ang/my-blog_-source.git<span class="token function">git</span> push -u origin master</code></pre><p>已有仓库?</p><pre class=" language-bash"><code class="language-bash"><span class="token function">cd</span> existing_git_repo<span class="token function">git</span> remote add origin https://gitee.com/xy_ang/my-blog_-source.git<span class="token function">git</span> push -u origin master</code></pre>]]></content>
-      
-      
-      <categories>
-          
-          <category> 随笔录丶 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Git </tag>
             
         </tags>
       
