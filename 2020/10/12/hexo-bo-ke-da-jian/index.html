@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Gitee使用指南, 向阳,梦想,超越">
+    <meta name="keywords" content="Hexo个人博客搭建, 向阳,梦想,超越">
     <meta name="description" content="记录我们的日常">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Gitee使用指南 | Mr_Z</title>
+    <title>Hexo个人博客搭建 | Mr_Z</title>
     <link rel="icon" type="image/png" href="/xy_ang/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/xy_ang/libs/awesome/css/all.css">
@@ -226,12 +226,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/xy_ang/medias/featureimages/5.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/xy_ang/medias/featureimages/23.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Gitee使用指南</h1>
+                    <h1 class="description center-align post-title">Hexo个人博客搭建</h1>
                 </div>
             </div>
         </div>
@@ -348,8 +348,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/xy_ang/tags/Git/">
-                                <span class="chip bg-color">Git</span>
+                            <a href="/xy_ang/tags/git/">
+                                <span class="chip bg-color">git</span>
                             </a>
                         
                     </div>
@@ -360,8 +360,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/xy_ang/categories/%E9%9A%8F%E7%AC%94%E5%BD%95%E4%B8%B6/" class="post-category">
-                                随笔录丶
+                            <a href="/xy_ang/categories/Hexo/" class="post-category">
+                                Hexo
                             </a>
                         
                     </div>
@@ -373,7 +373,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-10-08
+                    2020-10-12
                 </div>
                 
 
@@ -382,14 +382,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    133
+                    1.2k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    4 分
                 </div>
                 
 
@@ -404,23 +404,141 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="Git远程管理工具"><a href="#Git远程管理工具" class="headerlink" title="Git远程管理工具"></a>Git远程管理工具</h2><p>Git本地有三个工作区域：工作目录，暂存区，资源库          –&gt;&gt;远程仓库      一块共4个</p>
-<h2 id="简易的命令行入门教程"><a href="#简易的命令行入门教程" class="headerlink" title="简易的命令行入门教程"></a>简易的命令行入门教程</h2><p>Git 全局设置:</p>
-<pre class=" language-bash"><code class="language-bash"><span class="token function">git</span> config --global user.name <span class="token string">"HS"</span>
-<span class="token function">git</span> config --global user.email <span class="token string">"1972728214@qq.com"</span></code></pre>
-<p>创建 git 仓库:</p>
-<pre class=" language-bash"><code class="language-bash"><span class="token function">mkdir</span> my-blog_-source
-<span class="token function">cd</span> my-blog_-source
-<span class="token function">git</span> init
-<span class="token function">touch</span> README.md
-<span class="token function">git</span> add README.md
-<span class="token function">git</span> commit -m <span class="token string">"first commit"</span>
-<span class="token function">git</span> remote add origin https://gitee.com/xy_ang/my-blog_-source.git
-<span class="token function">git</span> push -u origin master</code></pre>
-<p>已有仓库?</p>
-<pre class=" language-bash"><code class="language-bash"><span class="token function">cd</span> existing_git_repo
-<span class="token function">git</span> remote add origin https://gitee.com/xy_ang/my-blog_-source.git
-<span class="token function">git</span> push -u origin master</code></pre>
+                <h2 id="个人博客搭建及美化"><a href="#个人博客搭建及美化" class="headerlink" title="个人博客搭建及美化"></a>个人博客搭建及美化</h2><h2 id="1-环境"><a href="#1-环境" class="headerlink" title="1.环境"></a>1.环境</h2><blockquote>
+<p>1.安装 node.js         git       </p>
+</blockquote>
+<p>安装完成后右键打开<code>Git Bash Here</code>  或者cmd 窗口类似于Linux的命令行</p>
+<pre class=" language-bash"><code class="language-bash"><span class="token comment" spellcheck="true">#检测node.js是否安装成功</span>
+node -v
+<span class="token comment" spellcheck="true">#检查 npm</span>
+<span class="token function">npm</span> -v</code></pre>
+<p><img src="https://gitee.com/xy_ang/picgo_images/raw/master/20201012103534.png"> </p>
+<p>出现版本号代表安装成功！</p>
+<blockquote>
+<p>2.安装 cnpm </p>
+</blockquote>
+<h3 id="npm与cnpm的区别"><a href="#npm与cnpm的区别" class="headerlink" title="npm与cnpm的区别"></a>npm与cnpm的区别</h3><p><strong>NPM（Node Package Manager，节点包管理器）是NodeJS的包管理器，用于节点插件的管理（包括安装，卸载和管理依赖等）。NPM是随同新版的NodeJS一起安装的包管理工具，所以我们需要安装NodeJS。</strong></p>
+<p><strong>NPM的常见使用场景</strong></p>
+<p><strong>1.允许用户从NPM服务器上下载别人编写的第三方包到本地使用。</strong></p>
+<p><strong>2.允许用户从NPM服务器上下载并安装别人编写的命令行程序到本地使用。</strong></p>
+<p><strong>3.允许用户将自己编写的包或命令行程序上传到NPM服务器上供别人使用。</strong></p>
+<p><strong>为什么要用CNPM</strong></p>
+<p><strong>NMP安装插件是从NPM官网下载对应的插件包，该网站的服务器在国外，经常会出现下载缓慢或出现异常，这时便需要找到另外的方法提供稳定的下载，这个方法就是CNPM。阿里巴巴的淘宝团队把NMP官网的插件都同步到了在中国的服务器，提供给我们从这个服务器上稳定下载资源。</strong></p>
+<p><strong>CNMP同样是NMP的一个插件，要安装的话需要在CMD命令行控制台执行以下命令：</strong></p>
+<pre><code>npm install cnpm -g --registry=https://registry.npm.taobao.org</code></pre>
+<p><strong>安装完成后可以使用cnpm -v命令查看版本号，要使用cnmp命令的话最好在安装后重新打开CMD命令行控制台。</strong></p>
+<p><strong>cnpm的用法和npm的用法一致，只是在执行命令的时候将npm改为cnpm</strong>。</p>
+<ul>
+<li>利用npm安装cnpm插件</li>
+</ul>
+<p><img src="https://gitee.com/xy_ang/picgo_images/raw/master/20201012103535.png"> </p>
+<ul>
+<li>验证安装是否成功</li>
+</ul>
+<p><img src="https://gitee.com/xy_ang/picgo_images/raw/master/20201012103536.png"> </p>
+<p>==————————————————安装成功后进入下一环节！！——————————————————==</p>
+<h2 id="2-博客安装操作"><a href="#2-博客安装操作" class="headerlink" title="2.博客安装操作"></a>2.博客安装操作</h2><ul>
+<li>安装hexo开源博客</li>
+</ul>
+<pre class=" language-BASH"><code class="language-BASH">npm install hexo-cli -g</code></pre>
+<p><img src="https://gitee.com/xy_ang/picgo_images/raw/master/20201012103537.png"> </p>
+<ul>
+<li>验证是否安装成功</li>
+</ul>
+<p><img src="https://gitee.com/xy_ang/picgo_images/raw/master/20201012103538.png"> </p>
+<blockquote>
+<p> 博客初始化</p>
+</blockquote>
+<p>1.在任意的盘符下新建文件夹，命名随意，我的命名：==XYBlog==</p>
+<p>2.在该文件夹下打开<code>Git Bash here</code></p>
+<p>3.输入指令<code>hexo init</code> 完成博客初始化；</p>
+<p><img src="https://gitee.com/xy_ang/picgo_images/raw/master/20201012103539.png"> </p>
+<p>4.运行博客</p>
+<blockquote>
+<p>命令 hexo server  / hexo s</p>
+</blockquote>
+<p><img src="https://gitee.com/xy_ang/picgo_images/raw/master/20201012103540.png"> </p>
+<blockquote>
+<p><a target="_blank" rel="noopener" href="http://localhost:4000/">http://localhost:4000</a></p>
+</blockquote>
+<p><img src="https://gitee.com/xy_ang/picgo_images/raw/master/20201012103541.png"> </p>
+<p>5.记录第一次博客</p>
+<blockquote>
+<p>hexo new “博客标题”</p>
+</blockquote>
+<p><img src="https://gitee.com/xy_ang/picgo_images/raw/master/20201012103542.png"> </p>
+<p>之后在运行博客<code>hexo server</code>，在<a href="http://localhost:4000中即可看到刚写的博客">http://localhost:4000中即可看到刚写的博客</a>.</p>
+<ul>
+<li>写的博客存放路径</li>
+</ul>
+<p><img src="https://gitee.com/xy_ang/picgo_images/raw/master/20201012103543.png" alt="image-20201006150125772"> </p>
+<blockquote>
+<p>hexo clean 清除缓存</p>
+</blockquote>
+<h2 id="3-部署博客"><a href="#3-部署博客" class="headerlink" title="3.部署博客"></a>3.部署博客</h2><h4 id="1-登录码云"><a href="#1-登录码云" class="headerlink" title="1.登录码云"></a>1.登录码云</h4><p><a target="_blank" rel="noopener" href="https://gitee.com/">码云</a></p>
+<h4 id="2-新建仓库"><a href="#2-新建仓库" class="headerlink" title="2.新建仓库"></a>2.新建仓库</h4><p><img src="https://gitee.com/xy_ang/picgo_images/raw/master/20201012103544.png">  </p>
+<h4 id="3-安装git插件"><a href="#3-安装git插件" class="headerlink" title="3.安装git插件"></a>3.安装git插件</h4><blockquote>
+<pre class=" language-bash"><code class="language-bash">cnpm <span class="token function">install</span> --save hexo-deployer-git</code></pre>
+</blockquote>
+<p><img src="https://gitee.com/xy_ang/picgo_images/raw/master/20201012103545.png"> </p>
+<h4 id="4-设置远程仓库"><a href="#4-设置远程仓库" class="headerlink" title="4.设置远程仓库"></a>4.设置远程仓库</h4><p><img src="https://gitee.com/xy_ang/picgo_images/raw/master/20201012103546.png"> </p>
+<ul>
+<li>设置url</li>
+</ul>
+<p><img src="https://gitee.com/xy_ang/picgo_images/raw/master/20201012103547.png">  </p>
+<ul>
+<li>设置仓库地址</li>
+</ul>
+<pre class=" language-bash"><code class="language-bash">deploy:
+  type: <span class="token function">git</span>
+  repo: https://gitee.com/用户名/仓库地址
+  branch: master</code></pre>
+<p><img src="https://gitee.com/xy_ang/picgo_images/raw/master/20201012103548.png"> </p>
+<h4 id="5-部署到远程"><a href="#5-部署到远程" class="headerlink" title="5.部署到远程"></a>5.部署到远程</h4><blockquote>
+<p>在博客目录下打开Git Bash Here 输入 <code>hexo d</code></p>
+</blockquote>
+<p><strong>若在<code>hexo d</code> 后出现ERROR Deployer not found: git 则执行<code>npm install </code>–<code>save hexo-deployer-git</code>即可解决</strong></p>
+<p><img src="https://gitee.com/xy_ang/picgo_images/raw/master/20201012103549.png"> </p>
+<h4 id="6-开启静态页面服务"><a href="#6-开启静态页面服务" class="headerlink" title="6.开启静态页面服务"></a>6.开启静态页面服务</h4><p><img src="https://gitee.com/xy_ang/picgo_images/raw/master/20201012103550.png"> </p>
+<p><img src="https://gitee.com/xy_ang/picgo_images/raw/master/20201012103551.png"> </p>
+<h4 id="7-博客部署完成，个人博客"><a href="#7-博客部署完成，个人博客" class="headerlink" title="7.博客部署完成，个人博客"></a>7.博客部署完成，<a href="http://xy_ang.gitee.io/">个人博客</a></h4><p><img src="https://gitee.com/xy_ang/picgo_images/raw/master/20201012103552.png"></p>
+<h2 id="4-博客流程"><a href="#4-博客流程" class="headerlink" title="4.博客流程"></a>4.博客流程</h2><h4 id="1-写博客"><a href="#1-写博客" class="headerlink" title="1.写博客"></a>1.写博客</h4><blockquote>
+<p>执行<code>hexo new "标题"</code> 创建md文件，打开md文件，写博客即可</p>
+</blockquote>
+<h4 id="2-清缓存-amp-更新渲染"><a href="#2-清缓存-amp-更新渲染" class="headerlink" title="2.清缓存&amp;更新渲染"></a>2.清缓存&amp;更新渲染</h4><blockquote>
+<p>hexo clean 清除缓存</p>
+<p>hexo g重新渲染静态页面</p>
+</blockquote>
+<h4 id="3-推送到码云"><a href="#3-推送到码云" class="headerlink" title="3.推送到码云"></a>3.推送到码云</h4><blockquote>
+<p>hexo d</p>
+</blockquote>
+<h4 id="4-更新码云的静态页面"><a href="#4-更新码云的静态页面" class="headerlink" title="4.更新码云的静态页面"></a>4.更新码云的静态页面</h4><p><img src="https://gitee.com/xy_ang/picgo_images/raw/master/20201012103553.png"> </p>
+<h4 id="5-重新访问网站即可"><a href="#5-重新访问网站即可" class="headerlink" title="5.重新访问网站即可"></a>5.重新访问网站即可</h4><h2 id="5-博客的美化"><a href="#5-博客的美化" class="headerlink" title="5.博客的美化"></a>5.博客的美化</h2><p>1.进入博客目录打开<code>GitBash</code>，选择字节喜欢的主题（可以在网上搜索）本次讲解以==Matery==主题说明.</p>
+<pre class=" language-bash"><code class="language-bash"><span class="token function">git</span> clone  https://github.com/blinkfox/hexo-theme-matery</code></pre>
+<p>2.克隆完成后，配置主题</p>
+<p>在博客文件夹的themes目录下创建matery目录，然后把刚克隆好的主题部分复制到matery目录下</p>
+<p><img src="https://gitee.com/xy_ang/picgo_images/raw/master/20201012103554.png">   </p>
+<p>接下来配置博客目录下的<code>_config.yml</code>文件</p>
+<p><img src="https://gitee.com/xy_ang/picgo_images/raw/master/20201012103555.png"> </p>
+<pre class=" language-bash"><code class="language-bash"><span class="token comment" spellcheck="true">#清除缓存，渲染页面</span>
+hexo clean <span class="token operator">&amp;&amp;</span> hexo generate 简写 hexo cl <span class="token operator">&amp;&amp;</span> hexo g
+<span class="token comment" spellcheck="true">#重启本地服务，可以本地访问页面</span>
+hexo server 简写 hexo s</code></pre>
+<h2 id="6-床图的使用PicGo"><a href="#6-床图的使用PicGo" class="headerlink" title="6.床图的使用PicGo"></a>6.床图的使用PicGo</h2><h4 id="1-下载并安装PicGo"><a href="#1-下载并安装PicGo" class="headerlink" title="1.下载并安装PicGo"></a>1.下载并安装PicGo</h4><h4 id="2-配置PicGo"><a href="#2-配置PicGo" class="headerlink" title="2.配置PicGo"></a>2.配置PicGo<img src="https://gitee.com/xy_ang/picgo_images/raw/master/20201012103556.png"></h4><p>3.<img src="https://gitee.com/xy_ang/picgo_images/raw/master/20201012103557.png"> </p>
+<p>4.</p>
+<p><code>repo:</code><img src="https://gitee.com/xy_ang/picgo_images/raw/master/20201012103558.png"> </p>
+<p><code>token:</code>在gitee新建仓库 <img src="https://gitee.com/xy_ang/picgo_images/raw/master/20201012103559.png"> </p>
+<p>然后在设置里面找到私人令牌  </p>
+<p><img src="https://gitee.com/xy_ang/picgo_images/raw/master/20201012103600.png">  </p>
+<p><img src="https://gitee.com/xy_ang/picgo_images/raw/master/20201012103601.png" alt="image-20201010001620218"> </p>
+<p>填写以下参数（空着的默认不填）：</p>
+<p><img src="https://gitee.com/xy_ang/picgo_images/raw/master/20201012103602.png"> </p>
+<p>5.完成<img src="https://gitee.com/xy_ang/picgo_images/raw/master/20201012103603.png"> </p>
+<h2 id="7-PicGo床图结合Typora使用"><a href="#7-PicGo床图结合Typora使用" class="headerlink" title="7.PicGo床图结合Typora使用"></a>7.PicGo床图结合Typora使用</h2><h4 id="1-在typora中找到偏好设置"><a href="#1-在typora中找到偏好设置" class="headerlink" title="1.在typora中找到偏好设置"></a>1.在typora中找到偏好设置</h4><p><img src="https://gitee.com/xy_ang/picgo_images/raw/master/20201012103604.png"> </p>
+<h4 id="2-采坑点"><a href="#2-采坑点" class="headerlink" title="2.采坑点"></a>2.采坑点</h4><p><strong>倘若配置完成后点击<code>验证失败</code>，则切换更高版本的PicGo（建议使用2.3.0），或者升级typora.</strong></p>
+<h4 id="3-配置完成"><a href="#3-配置完成" class="headerlink" title="3.配置完成"></a>3.配置完成</h4><p>验证成功后，在用typora写博客用到图片上，直接粘贴图片，图片会自动上传到gitee所建的仓库中，可在</p>
+<p>PicGo-相册 中查看；</p>
+<p><code>越努力，越幸运，Just do it！</code></p>
 
             </div>
             <hr/>
@@ -446,7 +564,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://xy_ang.gitee.io/xy_ang/2020/10/08/git/">http://xy_ang.gitee.io/xy_ang/2020/10/08/git/</a>
+                    <a href="http://xy_ang.gitee.io/xy_ang/2020/10/12/hexo-bo-ke-da-jian/">http://xy_ang.gitee.io/xy_ang/2020/10/12/hexo-bo-ke-da-jian/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -484,8 +602,8 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/xy_ang/tags/Git/">
-                                    <span class="chip bg-color">Git</span>
+                                <a href="/xy_ang/tags/git/">
+                                    <span class="chip bg-color">git</span>
                                 </a>
                             
                         </div>
@@ -920,31 +1038,31 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/xy_ang/2020/10/08/javascript/">
+                <a href="/xy_ang/2020/10/12/mysql-ji-zai/">
                     <div class="card-image">
                         
                         
-                        <img src="/xy_ang/medias/featureimages/19.jpg" class="responsive-img" alt="JavaScript基础">
+                        <img src="/xy_ang/medias/featureimages/14.jpg" class="responsive-img" alt="数据库记载">
                         
-                        <span class="card-title">JavaScript基础</span>
+                        <span class="card-title">数据库记载</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            JavaScript基本语法
+                            Mysql常用知识
                         
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-10-08
+                            <i class="far fa-clock fa-fw icon-date"></i>2020-10-12
                         </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/xy_ang/categories/JavaScript/" class="post-category">
-                                    JavaScript
+                            <a href="/xy_ang/categories/%E9%9A%8F%E7%AC%94%E5%BD%95%E4%B8%B6/" class="post-category">
+                                    随笔录丶
                                 </a>
                             
                             
@@ -954,8 +1072,8 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/xy_ang/tags/JavaScript/">
-                        <span class="chip bg-color">JavaScript</span>
+                    <a href="/xy_ang/tags/mysql/">
+                        <span class="chip bg-color">mysql</span>
                     </a>
                     
                 </div>
@@ -966,27 +1084,27 @@
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="far fa-dot-circle"></i>
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/xy_ang/2020/10/08/git/">
+                <a href="/xy_ang/2020/10/09/typora-chang-yong/">
                     <div class="card-image">
                         
                         
-                        <img src="/xy_ang/medias/featureimages/5.jpg" class="responsive-img" alt="Gitee使用指南">
+                        <img src="/xy_ang/medias/featureimages/9.jpg" class="responsive-img" alt="Typora常用快捷键">
                         
-                        <span class="card-title">Gitee使用指南</span>
+                        <span class="card-title">Typora常用快捷键</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Git指令
+                            语法表达
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-10-08
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-10-09
                             </span>
                         <span class="publish-author">
                             
@@ -1000,12 +1118,11 @@
                         </span>
                     </div>
                 </div>
-
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/xy_ang/tags/Git/">
-                        <span class="chip bg-color">Git</span>
+                    <a href="/xy_ang/tags/Markdown/">
+                        <span class="chip bg-color">Markdown</span>
                     </a>
                     
                 </div>

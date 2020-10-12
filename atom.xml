@@ -6,7 +6,7 @@
   <link href="http://xy_ang.gitee.io/atom.xml" rel="self"/>
   
   <link href="http://xy_ang.gitee.io/"/>
-  <updated>2020-10-09T12:58:35.429Z</updated>
+  <updated>2020-10-12T02:53:29.829Z</updated>
   <id>http://xy_ang.gitee.io/</id>
   
   <author>
@@ -15,6 +15,81 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>html+css常记</title>
+    <link href="http://xy_ang.gitee.io/2020/10/12/html-css-chang-ji/"/>
+    <id>http://xy_ang.gitee.io/2020/10/12/html-css-chang-ji/</id>
+    <published>2020-10-12T02:53:58.000Z</published>
+    <updated>2020-10-12T02:53:29.829Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;1-HTML&quot;&gt;&lt;a href=&quot;#1-HTML&quot; class=&quot;headerlink&quot; title=&quot;1.HTML&quot;&gt;&lt;/a&gt;1.HTML&lt;/h1&gt;&lt;h4 id=&quot;基本标签&quot;&gt;&lt;a href=&quot;#基本标签&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="随笔录丶" scheme="http://xy_ang.gitee.io/categories/%E9%9A%8F%E7%AC%94%E5%BD%95%E4%B8%B6/"/>
+    
+    
+    <category term="H5" scheme="http://xy_ang.gitee.io/tags/H5/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>数据库记载</title>
+    <link href="http://xy_ang.gitee.io/2020/10/12/mysql-ji-zai/"/>
+    <id>http://xy_ang.gitee.io/2020/10/12/mysql-ji-zai/</id>
+    <published>2020-10-12T02:48:28.000Z</published>
+    <updated>2020-10-12T02:49:44.592Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;数据库&quot;&gt;&lt;a href=&quot;#数据库&quot; class=&quot;headerlink&quot; title=&quot;数据库&quot;&gt;&lt;/a&gt;数据库&lt;/h1&gt;&lt;h2 id=&quot;1-1-数据库简介&quot;&gt;&lt;a href=&quot;#1-1-数据库简介&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="随笔录丶" scheme="http://xy_ang.gitee.io/categories/%E9%9A%8F%E7%AC%94%E5%BD%95%E4%B8%B6/"/>
+    
+    
+    <category term="mysql" scheme="http://xy_ang.gitee.io/tags/mysql/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo个人博客搭建</title>
+    <link href="http://xy_ang.gitee.io/2020/10/12/hexo-bo-ke-da-jian/"/>
+    <id>http://xy_ang.gitee.io/2020/10/12/hexo-bo-ke-da-jian/</id>
+    <published>2020-10-12T02:35:00.000Z</published>
+    <updated>2020-10-12T02:44:22.806Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;个人博客搭建及美化&quot;&gt;&lt;a href=&quot;#个人博客搭建及美化&quot; class=&quot;headerlink&quot; title=&quot;个人博客搭建及美化&quot;&gt;&lt;/a&gt;个人博客搭建及美化&lt;/h2&gt;&lt;h2 id=&quot;1-环境&quot;&gt;&lt;a href=&quot;#1-环境&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Hexo" scheme="http://xy_ang.gitee.io/categories/Hexo/"/>
+    
+    
+    <category term="git" scheme="http://xy_ang.gitee.io/tags/git/"/>
+    
+  </entry>
   
   <entry>
     <title>Typora常用快捷键</title>
@@ -63,6 +138,31 @@
     
     
     <category term="Marldown" scheme="http://xy_ang.gitee.io/tags/Marldown/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaScript基础</title>
+    <link href="http://xy_ang.gitee.io/2020/10/08/javascript/"/>
+    <id>http://xy_ang.gitee.io/2020/10/08/javascript/</id>
+    <published>2020-10-07T16:00:00.000Z</published>
+    <updated>2020-10-12T02:57:21.541Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;JavaScript-精通&quot;&gt;&lt;a href=&quot;#JavaScript-精通&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="JavaScript" scheme="http://xy_ang.gitee.io/categories/JavaScript/"/>
+    
+    
+    <category term="JavaScript" scheme="http://xy_ang.gitee.io/tags/JavaScript/"/>
     
   </entry>
   

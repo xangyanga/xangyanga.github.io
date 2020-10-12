@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Gitee使用指南, 向阳,梦想,超越">
+    <meta name="keywords" content="html+css常记, 向阳,梦想,超越">
     <meta name="description" content="记录我们的日常">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Gitee使用指南 | Mr_Z</title>
+    <title>html+css常记 | Mr_Z</title>
     <link rel="icon" type="image/png" href="/xy_ang/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/xy_ang/libs/awesome/css/all.css">
@@ -226,12 +226,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/xy_ang/medias/featureimages/5.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/xy_ang/medias/featureimages/11.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Gitee使用指南</h1>
+                    <h1 class="description center-align post-title">html+css常记</h1>
                 </div>
             </div>
         </div>
@@ -348,8 +348,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/xy_ang/tags/Git/">
-                                <span class="chip bg-color">Git</span>
+                            <a href="/xy_ang/tags/H5/">
+                                <span class="chip bg-color">H5</span>
                             </a>
                         
                     </div>
@@ -373,7 +373,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-10-08
+                    2020-10-12
                 </div>
                 
 
@@ -382,14 +382,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    133
+                    769
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    3 分
                 </div>
                 
 
@@ -404,23 +404,150 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="Git远程管理工具"><a href="#Git远程管理工具" class="headerlink" title="Git远程管理工具"></a>Git远程管理工具</h2><p>Git本地有三个工作区域：工作目录，暂存区，资源库          –&gt;&gt;远程仓库      一块共4个</p>
-<h2 id="简易的命令行入门教程"><a href="#简易的命令行入门教程" class="headerlink" title="简易的命令行入门教程"></a>简易的命令行入门教程</h2><p>Git 全局设置:</p>
-<pre class=" language-bash"><code class="language-bash"><span class="token function">git</span> config --global user.name <span class="token string">"HS"</span>
-<span class="token function">git</span> config --global user.email <span class="token string">"1972728214@qq.com"</span></code></pre>
-<p>创建 git 仓库:</p>
-<pre class=" language-bash"><code class="language-bash"><span class="token function">mkdir</span> my-blog_-source
-<span class="token function">cd</span> my-blog_-source
-<span class="token function">git</span> init
-<span class="token function">touch</span> README.md
-<span class="token function">git</span> add README.md
-<span class="token function">git</span> commit -m <span class="token string">"first commit"</span>
-<span class="token function">git</span> remote add origin https://gitee.com/xy_ang/my-blog_-source.git
-<span class="token function">git</span> push -u origin master</code></pre>
-<p>已有仓库?</p>
-<pre class=" language-bash"><code class="language-bash"><span class="token function">cd</span> existing_git_repo
-<span class="token function">git</span> remote add origin https://gitee.com/xy_ang/my-blog_-source.git
-<span class="token function">git</span> push -u origin master</code></pre>
+                <h1 id="1-HTML"><a href="#1-HTML" class="headerlink" title="1.HTML"></a>1.HTML</h1><h4 id="基本标签"><a href="#基本标签" class="headerlink" title="基本标签"></a>基本标签</h4><ol>
+<li><p>DOCTYPE 用于说明一个规范</p>
+</li>
+<li><p>meta 描述性标签，用于说明</p>
+</li>
+<li><p>段落标签<code>&lt;p&gt;&lt;/p&gt;</code></p>
+</li>
+<li><p>换行标签<code>&lt;br/&gt;</code></p>
+</li>
+<li><p>水平线标签<code>&lt;hr/&gt;</code></p>
+</li>
+<li><p>粗体<code>&lt;strong&gt;&lt;/strong&gt;</code></p>
+</li>
+<li><p>斜体<code>&lt;em&gt;&lt;/em&gt;</code></p>
+</li>
+<li><p>特殊符号：<code>&amp;nbsp；</code></p>
+</li>
+<li><p>大于号<code>&amp;gt；</code>        小于号<code>&amp;lt；</code></p>
+</li>
+<li><p>版权<code>&amp;copy ;</code></p>
+</li>
+<li><p>注释<code>&lt;!--  --&gt;</code></p>
+</li>
+<li><p>图像标签<code>&lt;img src="" alt=""  title=""&gt;</code></p>
+</li>
+<li><p>超链接<code>&lt;a href="" target=""&gt;&lt;/a&gt; </code>  target的参数 在本身页面打开：<code>_self</code> ,在新的页面打开：<code>_blank</code></p>
+<ol>
+<li>锚链接 1.需要一个标记 2.跳转到标记</li>
+<li>功能性链接 邮箱链接<code>&lt;a href="mailto:youxiang"&gt;&lt;/a&gt;</code></li>
+</ol>
+</li>
+<li><p>块元素 无论内容多少独占一行</p>
+</li>
+<li><p>行内元素 左右的行内元素可以排在一起</p>
+</li>
+<li><p>列表</p>
+<ol>
+<li><p>有序列表 </p>
+<pre class=" language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ol</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ol</span><span class="token punctuation">></span></span></code></pre>
+</li>
+<li><p>有序列表</p>
+<pre class=" language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ul</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ul</span><span class="token punctuation">></span></span></code></pre>
+</li>
+<li><p>自定义列表</p>
+<pre class=" language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dl</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dt</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>dt</span><span class="token punctuation">></span></span> 列表标签
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dd</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>dd</span><span class="token punctuation">></span></span> 名称
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>dl</span><span class="token punctuation">></span></span></code></pre>
+</li>
+</ol>
+</li>
+<li><p>表格 table  行tr  rows  列td</p>
+<pre class=" language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>table</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tr</span><span class="token punctuation">></span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">></span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>table</span><span class="token punctuation">></span></span>  </code></pre>
+</li>
+<li><p>视频标签 <code>&lt;video src="" controls autoplay&gt;&lt;/video&gt;</code></p>
+</li>
+<li><p>音频<code>&lt;audio src="" controls autoplay&gt;&lt;/audio&gt;</code></p>
+</li>
+<li><p>内联框架<code>&lt;iframe src=""&gt;&lt;/iframe&gt;</code></p>
+</li>
+<li><p>表单</p>
+<pre class=" language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>form</span> <span class="token attr-name">method</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span><span class="token punctuation">"</span></span> <span class="token attr-name">action</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span><span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>form</span><span class="token punctuation">></span></span></code></pre>
+</li>
+<li><p>input标签</p>
+<pre class=" language-html"><code class="language-html"><span class="token comment" spellcheck="true">&lt;!--type参数radio单选框 注意name需要设置一致成为一组
+type参数checkbox多选框 也需要name一致，成为一组
+submit 提交
+reset 重置
+file 文件域
+--></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">tpye</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span><span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span><span class="token punctuation">"</span></span><span class="token punctuation">></span></span>                           </code></pre>
+</li>
+<li><p>下拉框select</p>
+<pre class=" language-html"><code class="language-html">  国家：<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>select</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span><span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span><span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>option</span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span><span class="token punctuation">"</span></span><span class="token punctuation">></span></span>中国<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>option</span><span class="token punctuation">></span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>option</span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span><span class="token punctuation">"</span></span> <span class="token attr-name">selected</span><span class="token punctuation">></span></span>瑞士<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>option</span><span class="token punctuation">></span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>option</span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span><span class="token punctuation">"</span></span><span class="token punctuation">></span></span>美国<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>option</span><span class="token punctuation">></span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>select</span><span class="token punctuation">></span></span></code></pre>
+</li>
+<li><p>文本域<code>textarea</code></p>
+</li>
+<li><p>表单的应用 ：disable 禁用  hidden 隐藏 readonly 只读</p>
+</li>
+<li><p>placeholder 提示信息  require非空判断  pattern正则表达式验证</p>
+</li>
+</ol>
+<h1 id="2-CSS"><a href="#2-CSS" class="headerlink" title="2.CSS"></a>2.CSS</h1><p>1.css的导入方式：</p>
+<ul>
+<li>行内</li>
+<li>内部</li>
+<li>外部<code>link</code></li>
+<li>优先级：就近原则</li>
+</ul>
+<p>2.选择器的类型</p>
+<ul>
+<li>标签选择器</li>
+<li>类选择器           <code>.类的名称</code></li>
+<li>id选择器            <code>#id的名称</code></li>
+<li>优先级： id选择器&gt;类选择器&gt;标签选择器</li>
+</ul>
+<p>3.层次选择器</p>
+<ul>
+<li>后代选择器 空格</li>
+<li>子选择器  &gt;   一代(儿子)</li>
+<li>相邻兄弟选择器  +   只有一个(相邻即向下)</li>
+<li>通用选择器  ~  当前选中元素的所有兄弟元素</li>
+</ul>
+<p>4.结构伪类选择器 <code>：例如，a:hover</code></p>
+<p>5.属性选择器</p>
+<pre class=" language-html"><code class="language-html">例如，a[id=xx]即标签[属性]
+=绝对等于
+*=包含
+^=以xx开头
+$=以xx结尾</code></pre>
+<h4 id="页面美化"><a href="#页面美化" class="headerlink" title="页面美化"></a>页面美化</h4><pre class=" language-html"><code class="language-html">font-size   字体大小
+font-family 字体类型
+font-weigth 字体粗细    bolder字体加粗
+line-height 行高        注意：行高和块的高度一致则文字居中
+text-align  排版居中
+text-indent 缩进 
+vertical-align：middle 文本图片水平对齐
+border:粗细 样式 颜色
+边框 margin padding border-radius 都是顺时针
+display  行内inline 块状block 块状行内inline-block
+float 浮动
+clear both 两侧不允许浮动
+overflow
+position relative相对定位  absolute绝对定位 注意：没有父级元素被定为则相对于浏览器，有则相对于父级
+        fixed固定定位
+z-index 图层
+opacity 透明度</code></pre>
 
             </div>
             <hr/>
@@ -446,7 +573,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://xy_ang.gitee.io/xy_ang/2020/10/08/git/">http://xy_ang.gitee.io/xy_ang/2020/10/08/git/</a>
+                    <a href="http://xy_ang.gitee.io/xy_ang/2020/10/12/html-css-chang-ji/">http://xy_ang.gitee.io/xy_ang/2020/10/12/html-css-chang-ji/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -484,8 +611,8 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/xy_ang/tags/Git/">
-                                    <span class="chip bg-color">Git</span>
+                                <a href="/xy_ang/tags/H5/">
+                                    <span class="chip bg-color">H5</span>
                                 </a>
                             
                         </div>
@@ -916,77 +1043,29 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/xy_ang/2020/10/08/javascript/">
+                <a href="/xy_ang/2020/10/12/html-css-chang-ji/">
                     <div class="card-image">
                         
                         
-                        <img src="/xy_ang/medias/featureimages/19.jpg" class="responsive-img" alt="JavaScript基础">
+                        <img src="/xy_ang/medias/featureimages/11.jpg" class="responsive-img" alt="html+css常记">
                         
-                        <span class="card-title">JavaScript基础</span>
+                        <span class="card-title">html+css常记</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            JavaScript基本语法
-                        
-                    </div>
-                    <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-10-08
-                        </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/xy_ang/categories/JavaScript/" class="post-category">
-                                    JavaScript
-                                </a>
-                            
-                            
-                        </span>
-                    </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/xy_ang/tags/JavaScript/">
-                        <span class="chip bg-color">JavaScript</span>
-                    </a>
-                    
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="far fa-dot-circle"></i>
-            </div>
-            <div class="card">
-                <a href="/xy_ang/2020/10/08/git/">
-                    <div class="card-image">
-                        
-                        
-                        <img src="/xy_ang/medias/featureimages/5.jpg" class="responsive-img" alt="Gitee使用指南">
-                        
-                        <span class="card-title">Gitee使用指南</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            Git指令
+                            html+css
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-10-08
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-10-12
                             </span>
                         <span class="publish-author">
                             
@@ -1004,8 +1083,57 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/xy_ang/tags/Git/">
-                        <span class="chip bg-color">Git</span>
+                    <a href="/xy_ang/tags/H5/">
+                        <span class="chip bg-color">H5</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/xy_ang/2020/10/12/mysql-ji-zai/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/xy_ang/medias/featureimages/14.jpg" class="responsive-img" alt="数据库记载">
+                        
+                        <span class="card-title">数据库记载</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            Mysql常用知识
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-10-12
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/xy_ang/categories/%E9%9A%8F%E7%AC%94%E5%BD%95%E4%B8%B6/" class="post-category">
+                                    随笔录丶
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/xy_ang/tags/mysql/">
+                        <span class="chip bg-color">mysql</span>
                     </a>
                     
                 </div>
